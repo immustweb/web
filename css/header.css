@@ -1,0 +1,147 @@
+header{
+    background-color: #232323;
+    height: 80px;
+    width: 100%;
+    /* position: fixed; */
+    /* z-index: 1000; */
+    position: sticky;/*固定*/
+    top: 0;
+}
+
+
+
+h1{
+    color: white;
+}
+
+h1{
+    position:absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+}
+
+header ul{
+    position:absolute;
+    right: 5vw;
+    top: 0;    /*top上邊緣*/
+    line-height: 80px;
+}
+
+header li{
+    display: inline;
+    margin-right: 4vw;
+}
+
+header a{
+    color: white;
+    text-decoration: none; /* 關閉底線 */
+}
+
+header a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.search{
+    width: 300px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right:none ;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius :5px; ;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.menu{
+    display: none   ;
+}
+
+/* 670 */
+@media screen and (max-width: 670px){
+    .main-menu {
+        display: none;
+    }
+    .menu{
+        display: block;
+        background-color:transparent ;
+        color: white;
+        font-size: 35px;
+        position: absolute;
+        top: 15px;
+        right: 40px;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.button-menu {
+    display: none;
+    position: absolute;
+    top: 80px; /* 與 header 的底部對齊 */
+    left: 0;
+    background-color: #333;
+    width: 100%;
+}
+
+.button-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.button-menu ul li {
+    display: block;
+    padding: 10px 0;
+}
+
+.button-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
