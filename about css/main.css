@@ -1,0 +1,29 @@
+h2{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    height: 10vh;
+}
+.ty_video{
+    background-color: antiquewhite;
+    color: black;
+    height: 37vh;
+    display: flex;
+    flex-direction: row;
+    /* justify-content:center; */
+    justify-content:space-around;
+    align-items:center;
+}
+.ppt{
+    background-color:antiquewhite;
+    height: 65vh;
+    
+}
+.ppt-set{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 50vh;
+}
