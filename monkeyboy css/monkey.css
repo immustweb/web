@@ -1,0 +1,16 @@
+.monkey-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.monkey-photo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.monkey-photo img,
+.monkey-photo video {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 5px;
+}
